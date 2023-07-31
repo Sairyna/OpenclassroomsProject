@@ -379,13 +379,33 @@ p {
     .hebergements-and-populaires {
         flex-direction: column;
     }
-#hebergements {
-    width: 100%;
-}
-    .hebergements {
+
+    #hebergements {
         width: 100%;
     }
 
+    .activite>.card {
+        height: 270px;
+    }
+    .img_activite{
+        height: 75%;
+    }
+    .card-title {
+        margin-right: 23px;
+        margin-left: 10px;
+    }
+    .hebergements {
+        width: 100%;
+    }
+    footer {
+        height: 163px;
+    }
+    ul {
+        line-height: 150%;
+        margin-right: 10%;
+        margin-left: -5%;
+
+    }
     .populaires {
         width: 100%;
         margin-top: 50px;
