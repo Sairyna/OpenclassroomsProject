@@ -352,6 +352,7 @@ footer {
     justify-content: start;
     margin-top: 5%;
     align-items: start;
+    padding-left: 5%;
 }
 
 ul {
@@ -390,13 +391,25 @@ p {
     background-color: var(--main-bg-color)
 }
 
+li {
+    list-style: none;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    header {
+        width: 90%;
+    }
+
+    body {
+        width: 95%;
+    }
+
     .img_header {
-        margin-right: 70%;
+        margin-right: 75%;
         width: 7%;
         height: 7%;
         margin-top: 1%;
@@ -468,9 +481,14 @@ p {
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
+    body {
+        width: 100%;
+    }
+
     header {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     .Lien_Header {
@@ -671,6 +689,7 @@ p {
         flex-direction: column;
         background-color: var(--main-bg-color);
         height: 13%;
+        padding-left: 15%;
     }
 
     ul {
@@ -678,10 +697,12 @@ p {
         line-height: 250%;
         margin-left: -15%;
     }
+
     .txt_hebergement {
         margin-top: -4%;
         margin-bottom: 5px
     }
+
     .card-subtitle {
         margin-bottom: 2px;
         margin-top: 10px;
